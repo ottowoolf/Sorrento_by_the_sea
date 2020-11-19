@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sorrento by The Sea</title>
+  </head>
+  <body>
+    <main id="pricing">
+      <header>
+        <a href="./index.html"
+          ><img
+            class="logo"
+            src="./img/sorrento_by_the_sea_logo.jpg"
+            alt="sorrentoLogo"
+        /></a>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li id="pricingPageLink"><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./activities.html">Activities</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <article class="price-main">
+        <h2>Winter</h2>
+
+        <p>1st June - December 18th</p>
+        <p>$200 per night</p>
+
+        <h2>Summer & Holiday Season</h2>
+        <p>December 19th - January 31st</p>
+        <p>$250 per night</p>
+        <p>1st February - 31st May</p>
+        <p>$220 per night</p>
+      </article>
+      <article class="price-main">
+        <h2 id="terms">Terms and Conditions</h2>
+        <p>
+          The apartment is strictly non-smoking. Total amount is payable upon
+          booking.
+        </p>
+        <p>
+          In the event of a weekly or monthly booking the apartment will be
+          serviced weekly unless by prior arrangement.
+        </p>
+        <h2 id="cancellations">Cancellation Policy</h2>
+        <p>A full refund will be given prior to 30 days cancellation.</p>
+        <p>50% refund will be given after 30 days of cancellation.</p>
+        <p>
+          In the event of a weekly or monthly booking the apartment will be
+          serviced weekly unless by prior arrangement.
+        </p>
+      </article>
+      <section>
+        <div class="price-calculator">
+          <p>Price Calculator</p>
+          <select id="check-in"></select>
+          <button class="btn" onclick="displayDate()">Add Date</button>
+
+          <select id="SelectedDates">
+            <option>Choose</option>
+          </select>
+          <button class="btn" onclick="removeFromArray()">Remove Date</button>
+
+          <p id="title"></p>
+          <p id="price"></p>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pricing.html#cancellations">Cancellations</a></li>
+          <li><a href="./pricing.html#terms">Terms</a></li>
+          <li><a href="./contact.html">Location</a></li>
+        </ul>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="./img/facebook_small.png" alt="facebook" width="30"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="./img/instagram_small.png" alt="instagram" width="30"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img src="./img/twitter_small.png" alt="twitter" width="30"
+          /></a>
+          <a href="https://www.youtube.com" target="_blank"
+            ><img
+              src="./img/youtube-variation_small.png"
+              alt="youtube"
+              width="30"
+          /></a>
+          <a href="https://www.paypal.com" target="_blank"
+            ><img src="./img/paypal_small.png" alt="paypal" width="30"
+          /></a>
+        </div>
+      </footer>
+    </main>
+    <script src="./price.js"></script>
+  </body>
+</html>
