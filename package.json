@@ -1,10 +1,10 @@
 {
-  "name": "sorrento",
+  "name": "sorrento_by_the_sea",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
