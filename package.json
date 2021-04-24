@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build",
-
-    "predeploy": "yarn build",
-    "deploy": "npm run build && gh-pages -d build"
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
