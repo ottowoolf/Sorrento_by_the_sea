@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build",
 
     "predeploy": "yarn build",
     "deploy": "npm run build && gh-pages -d build"
