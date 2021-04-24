@@ -4,6 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
     <title>Sorrento by The Sea</title>
   </head>
   <body>
@@ -12,136 +39,230 @@
         <a href="./index.html"
           ><img
             class="logo"
-            src="./img/sorrento_by_the_sea_logo.jpg"
+            src="./img/sorrento-logo.jpg"
             alt="sorrentoLogo"
+            width="100%"
+            height="150"
         /></a>
       </header>
-      <nav>
-        <ul>
-          <li id="homePageLink"><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./activities.html">Activities</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
+      <!-- Nav Bar Section-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#">Sorrento By The Sea</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav ml-auto mr-5">
+              <a
+                class="nav-link active mr-4"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+              <a class="nav-link mr-4" href="./about.html">About</a>
+              <a class="nav-link mr-4" href="./pricing.html">Pricing</a>
+              <a class="nav-link mr-4" href="./activities.html">Activities</a>
+              <a class="nav-link mr-4" href="./contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
       </nav>
 
-      <article class="main">
-        <h1>Company information</h1>
-        <br />
-        <p>
-          On the Mornington Peninsula (one hour from Melbourne) next door to
-          Portsea.
-        </p>
-        <p>
-          Our apartment is a lazy 10-minute walk from the relaxed township of
-          Sorrento that offers restaurants, cafes, a chemist, a supermarket, a
-          butcher and lots more... It is located in a quiet avenue, just 4
-          houses from the beach. It is in easy walking distance of the ocean
-          beaches and surf.
-        </p>
-        <p>
-          Your private luxury apartment consists of a spacious living area with
-          leather lounge suite overlooking a sun drenched, tree-filled private
-          garden.
-        </p>
-        <p>
-          A separate kitchenette has everything you need to make your stay
-          relaxed and comfortable. A queen sized bedroom and an amazing bathroom
-          complete with free standing black bath entices you to relax and
-          unwind.
-        </p>
-        <p>
-          Two TVs are sure to make everyone happy! An undercover BBQ area with
-          seating offers plenty of space to stretch out and enjoy that cup of
-          freshly brewed coffee or a glass of wine.
-        </p>
-        <p>This is the perfect place for a home away from home.</p>
-      </article>
-      <article class="main">
-        <br />
-        <h2>Testimonials</h2>
-        <p>
-          "So sorry we had to go home after only one night. We will definitely
-          stay two nights next time!"
-        </p>
-        <p>
-          "This apartment is close to everything. We didn't need the car as the
-          walks were amazing"
-        </p>
-        <p>
-          "Your attention to detail made our stay so relaxed and comfortable. It
-          was such a shame we had to drive back to our little flat, which is
-          smaller than your apartment. We want to move in!"
-        </p>
-        <p>
-          "Cosy and comfortable. We imagined we owned it and enjoyed being
-          spoilt. Thank you."
-        </p>
-        <p>
-          "What a magical stay at such an amazing place. Completely
-          self-contained and very private. We loved it and will return again and
-          again."
-        </p>
-        <p>
-          "Never felt so spoilt. A perfect get away and so close to everything.
-          We had the best bath ever!"
-        </p>
-        <p>
-          "A few minutes’ walk from the beach, picnic basket in hand and towel
-          over the shoulder - can't think of anything better except that
-          wonderful breakfast. That bacon is the best in Melbourne!"
-        </p>
-        <p>
-          "Relaxing in that sunny garden watching our dog chasing balls. Let me
-          stay forever!"
-        </p>
-      </article>
-      <section class="middle main">
-        <h2>Pet Friendly</h2>
-        <p>
-          We understand that pets are an important part of the family. We are
-          pet friendly by arrangement - so please talk to us about your needs.
-        </p>
-
-        <p>
-          We offer a fully enclosed backyard, shady trees, water bowls, food
-          bowls and a lead if you forget one.
-        </p>
-        <p>
-          Only 3 minutes from a leash free beach, an oval close by and if you
-          want to sleep in we are happy to take your dog (depending on its size)
-          for a walk in the morning.
-        </p>
-      </section>
-      <footer>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./pricing.html#cancellations">Cancellations</a></li>
-          <li><a href="./pricing.html#terms">Terms</a></li>
-          <li><a href="./contact.html">Location</a></li>
-        </ul>
-        <div class="social">
-          <a href="https://www.facebook.com/" target="_blank"
-            ><img src="./img/facebook_small.png" alt="facebook" width="30"
-          /></a>
-          <a href="https://www.instagram.com" target="_blank"
-            ><img src="./img/instagram_small.png" alt="instagram" width="30"
-          /></a>
-          <a href="https://www.twitter.com" target="_blank"
-            ><img src="./img/twitter_small.png" alt="twitter" width="30"
-          /></a>
-          <a href="https://www.youtube.com" target="_blank"
-            ><img
-              src="./img/youtube-variation_small.png"
-              alt="youtube"
-              width="30"
-          /></a>
-          <a href="https://www.paypal.com" target="_blank"
-            ><img src="./img/paypal_small.png" alt="paypal" width="30"
-          /></a>
+      <!-- Main Section-->
+      <div class="container-fluid">
+        <div class="row">
+          <article class="col-md-6 col-sm-12 p-4">
+            <h1 class="fw-bold">Company information</h1>
+            <br />
+            <p>
+              On the Mornington Peninsula (one hour from Melbourne) next door to
+              Portsea.
+            </p>
+            <p>
+              Our apartment is a lazy 10-minute walk from the relaxed township
+              of Sorrento that offers restaurants, cafes, a chemist, a
+              supermarket, a butcher and lots more... It is located in a quiet
+              avenue, just 4 houses from the beach. It is in easy walking
+              distance of the ocean beaches and surf.
+            </p>
+            <p>
+              Your private luxury apartment consists of a spacious living area
+              with leather lounge suite overlooking a sun drenched, tree-filled
+              private garden.
+            </p>
+            <p>
+              A separate kitchenette has everything you need to make your stay
+              relaxed and comfortable. A queen sized bedroom and an amazing
+              bathroom complete with free standing black bath entices you to
+              relax and unwind.
+            </p>
+            <p>
+              Two TVs are sure to make everyone happy! An undercover BBQ area
+              with seating offers plenty of space to stretch out and enjoy that
+              cup of freshly brewed coffee or a glass of wine.
+            </p>
+            <p>This is the perfect place for a home away from home.</p>
+          </article>
+          <article class="col-md-6 col-sm-12 p-4 bg-warning">
+            <br />
+            <h2 class="fw-bold">Testimonials</h2>
+            <p>
+              "So sorry we had to go home after only one night. We will
+              definitely stay two nights next time!"
+            </p>
+            <p>
+              "This apartment is close to everything. We didn't need the car as
+              the walks were amazing"
+            </p>
+            <p>
+              "Your attention to detail made our stay so relaxed and
+              comfortable. It was such a shame we had to drive back to our
+              little flat, which is smaller than your apartment. We want to move
+              in!"
+            </p>
+            <p>
+              "Cosy and comfortable. We imagined we owned it and enjoyed being
+              spoilt. Thank you."
+            </p>
+            <p>
+              "What a magical stay at such an amazing place. Completely
+              self-contained and very private. We loved it and will return again
+              and again."
+            </p>
+            <p>
+              "Never felt so spoilt. A perfect get away and so close to
+              everything. We had the best bath ever!"
+            </p>
+            <p>
+              "A few minutes’ walk from the beach, picnic basket in hand and
+              towel over the shoulder - can't think of anything better except
+              that wonderful breakfast. That bacon is the best in Melbourne!"
+            </p>
+            <p>
+              "Relaxing in that sunny garden watching our dog chasing balls. Let
+              me stay forever!"
+            </p>
+          </article>
         </div>
+        <section class="row">
+          <div class="col-12 bg-light p-3">
+            <h2 class="text-center fw-bold">Pet Friendly</h2>
+            <p class="text-center">
+              We understand that pets are an important part of the family. We
+              are pet friendly by arrangement - so please talk to us about your
+              needs.
+            </p>
+
+            <p class="text-center">
+              We offer a fully enclosed backyard, shady trees, water bowls, food
+              bowls and a lead if you forget one.
+            </p>
+            <p class="text-center">
+              Only 3 minutes from a leash free beach, an oval close by and if
+              you want to sleep in we are happy to take your dog (depending on
+              its size) for a walk in the morning.
+            </p>
+          </div>
+        </section>
+      </div>
+      <!-- Footer -->
+      <footer class="page-footer font-small grey darken-4">
+        <!-- Footer Elements -->
+        <div class="container">
+          <!-- Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+              <div class="flex-center">
+                <!-- Facebook -->
+                <a class="fb-ic">
+                  <i
+                    class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  >
+                  </i>
+                </a>
+                <!-- Twitter -->
+                <a class="tw-ic">
+                  <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+                  </i>
+                </a>
+                <!-- Google +-->
+                <a class="gplus-ic">
+                  <i
+                    class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  >
+                  </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic">
+                  <i
+                    class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  >
+                  </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic">
+                  <i
+                    class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"
+                  >
+                  </i>
+                </a>
+                <!--Pinterest-->
+                <a class="pin-ic">
+                  <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+              </div>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-4">
+          © 2021 Copyright:
+          <a href="./Index.html">SorrentoBytheSea.com</a>
+        </div>
+        <!-- Copyright -->
       </footer>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
   </body>
 </html>
