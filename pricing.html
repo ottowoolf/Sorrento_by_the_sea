@@ -113,22 +113,25 @@
             <h2 class="text-center fw-bold p-4">Price Calculator</h2>
             <div class="text-center fw-bold">
               <select id="check-in"></select>
-              <button class="btn btn-primary rounded" onclick="displayDate()">
+              <button
+                class="btn btn-primary rounded p-2"
+                onclick="displayDate()"
+              >
                 Add Date
               </button>
-
               <select id="SelectedDates">
                 <option>Choose</option>
               </select>
               <button
-                class="btn btn-danger rounded"
+                class="btn btn-danger rounded p-2"
                 onclick="removeFromArray()"
               >
                 Remove Date
               </button>
-
-              <p id="title"></p>
-              <p id="price"></p>
+              <div class="text-center mt-3">
+                <p id="title"></p>
+                <p id="price"></p>
+              </div>
             </div>
           </div>
         </section>
